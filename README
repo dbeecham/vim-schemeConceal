@@ -1,0 +1,9 @@
+vim-schemeConceal adds conceal functionality to the scheme
+programming language. This script also highlights mutable functions
+(those that end with a bang).
+
+To disable highlighting mutable functions, set g:no_scheme_highlight_mutable
+to true. To disable concealment, set g:no_scheme_conceal to true.
+
+This script was inspired by the vim script vim-haskellConceal
+by Vincent Berthoux.
